@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+{
+  "features": [
+    {
+      "name": "Listening History Analysis",
+      "description": "Analyze the user's listening history to identify patterns in genres, artists, and tracks listened to over time."
+    },
+    {
+      "name": "Top Artists & Tracks Insights",
+      "description": "Display the user's top artists and tracks with detailed insights into listening frequency and duration."
+    },
+    {
+      "name": "Mood-Based Recommendations",
+      "description": "Use AI to recommend tracks based on the user’s mood or time of day, leveraging insights from Spotify's audio features (tempo, energy, etc.)."
+    },
+    {
+      "name": "Personalized Playlists Generator",
+      "description": "Create custom playlists for the user based on their listening habits, preferences, and discovered patterns."
+    },
+    {
+      "name": "Listening Habits Forecast",
+      "description": "Use AI to predict future listening preferences based on historical data and trending artists or genres."
+    },
+    {
+      "name": "Audio Feature Analysis",
+      "description": "Provide statistics on audio features like danceability, energy, and tempo across the user’s favorite tracks."
+    },
+    {
+      "name": "Favorite Time of Day for Music",
+      "description": "Show when the user typically listens to music the most, broken down by day and time."
+    },
+    {
+      "name": "Genre Discovery & Trends",
+      "description": "Identify the user’s top genres and explore new genres based on similar patterns and interests."
+    },
+    {
+      "name": "Sentiment Analysis of Lyrics",
+      "description": "Analyze the sentiment of lyrics in the user's frequently played tracks to offer insights on emotional patterns in listening."
+    },
+    {
+      "name": "Year in Review",
+      "description": "Generate a 'Year in Review' report, summarizing the user's top tracks, genres, and artists over the year."
+    },
+    {
+      "name": "Listening Time Stats",
+      "description": "Provide insights on the total time spent listening to Spotify and the breakdown of time per artist or genre."
+    },
+    {
+      "name": "Artist and Album Deep Dive",
+      "description": "Enable users to select an artist or album and view detailed listening stats and related recommendations."
+    },
+    {
+      "name": "Discover Similar Artists",
+      "description": "Recommend similar artists and tracks based on the user's listening data, using AI to match preferences."
+    },
+    {
+      "name": "Audio Feature Comparison",
+      "description": "Compare audio features of favorite tracks, such as comparing energy, danceability, and tempo."
+    },
+    {
+      "name": "Milestones & Achievements",
+      "description": "Track milestones like 'Most Listened Artist of the Month' or 'New Genre Explored' and notify the user."
+    },
+    {
+      "name": "Track Memory Lane",
+      "description": "Show listening history with highlights, like ‘Your First Song of the Year’ and nostalgic stats."
+    },
+    {
+      "name": "Collaborative Listening Insights",
+      "description": "Analyze collaborative playlists or shared sessions with friends to identify group listening trends."
+    }
+  ]
+}
